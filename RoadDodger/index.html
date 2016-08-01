@@ -3,7 +3,11 @@
 <html>
 <body>
 
-<canvas id="canvas" width="600" height="800" style="border:1px solid #d3d3d3; background-image:url('img/asphalt.png'); background-repeat:repeat-y;"> Your browser does not support the HTML5 canvas tag.</canvas>
+<canvas id="canvas" width="600" height="800" style="border:1px solid #d3d3d3; background-image:url('img/asphalt.png'); background-repeat:repeat-y; position:absolute;"> Your browser does not support the HTML5 canvas tag.</canvas>
+<canvas id="playerCanvas" width="600" height="800" style="border:1px solid #d3d3d3; position: absolute;"> Your browser does not support the HTML5 canvas tag.</canvas>
+<div width="300px" height="300px" style="background-color: white; position: absolute;">
+	<p id="feedback"></p>
+</div>
 <script src="game.js"></script>
 
 <script>
